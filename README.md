@@ -18,6 +18,7 @@ In this project we built a KAN Based VGG-11 Model using pytorch and [IvanDrokin'
 
 * The Train Directory contains the Training code, after training the checkpoints are saved into the checkpoints folder
 * The Eval Directory contains the code for Evaluation using the checkpoint which achieved highest accuracy during training.
+* The dataset and checkpoints can be found at [the following drive location](https://drive.google.com/drive/folders/1eVvJtTG--UDItwoQ4E8fsZCQ6LcWhiSx?usp=sharing)
 * The dataset folder contains the images sorted according to their classes (i.e. truck, bike, pedestrian, car).
 * Don't forget to adjust the paths for dataset and checkpoints in the code before running.
 * We used Google colab-pro with TPU-v2 to train the model, and T4 GPU to evaluate the model.
